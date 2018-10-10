@@ -1,0 +1,863 @@
+        /*大背景图上的轮播图部分*/
+        .image .nav_down_banner{
+            width: 100%;
+            height: 504px;
+            position: absolute;
+            bottom: 0;
+        }
+        .image .nav_down_banner .banner_content{
+            width: 100%;
+            height: 342px;
+        }
+        .image .nav_down_banner .banner_content .cont_left{
+            height: 100%;
+            width: 964px;
+            background-image: url(../imgs/rotate_bg.png);
+            float: left;
+        }
+        .image .nav_down_banner .banner_content .cont_left .lbt_cont{
+            width: 604px;
+            height: 342px;
+            float: left;
+        }
+        /*轮播图*/
+        .image .nav_down_banner .banner_content .cont_left .lbt_cont .lbt_item{
+            height: 298px;
+            overflow: hidden;
+            background-color: yellow;
+            position: relative;
+        }
+        .image .nav_down_banner .banner_content .cont_left .lbt_cont .lbt_item ul{
+            width: 4228px;
+            position: absolute;
+            left: -604px;
+        }
+        .image .nav_down_banner .banner_content .cont_left .lbt_cont .lbt_item li{
+            display: block;
+            width: 604px;
+            height: 298px;
+            float: left;
+            cursor: pointer;
+        }
+        .image .nav_down_banner .banner_content .cont_left .lbt_cont .lbt_index{
+            height: 44px;
+            width: 100%;
+        }
+        /*由于名字太长了，我想简写，所有部分名字会省去一部分,省去了cont_left*/
+         .lbt_index li{
+            float: left;
+            display: block;
+            height: 44px;
+            line-height: 44px;
+            width: 106.8px;
+            font-size: 14px;
+            padding-left: 14px;
+            color: #b1b2be;
+             cursor: pointer;
+        }
+         /*轮播图下的索引被选中时的样子*/
+        .lbt_index .current{
+            color: #e4b653;
+            background: rgba(255,255,255,0.15);
+        }
+        /*新闻*/
+        .image .nav_down_banner .news{
+            float: left;
+            height: 342px;
+            width: 358px;
+            margin-left: 1px;
+            overflow: hidden;
+        }
+        .image .nav_down_banner .news ol{
+            margin-left: 16px;
+            width: 325px;
+            height: 48px;
+            border-bottom: 1px solid black;
+        }
+        .image .nav_down_banner .news ol li{
+            float: left;
+            width: 52px;
+            height: 45px;
+        }
+        /*标题被选中以及内容随即选中的选择*/
+        .active{
+            color: #e4b653;
+            border-bottom: 3px solid #f3c258;
+        }
+        .main{
+            display: none;
+        }
+
+        .image .nav_down_banner .news ol .spec:hover{
+            border-bottom: 0;
+        }
+        .image .nav_down_banner .news ol li a{
+            display: block;
+            height: 48px;
+            line-height: 48px;
+            padding-left: 10px;
+            font-size: 14px;
+            color: #b8b9c5;
+        }
+        .image .nav_down_banner .news ul{
+            width: 324px;
+            height: 256px;
+            margin-left: 16px;
+            padding-top: 18px;
+            overflow: hidden;
+            display: block;
+        }
+        .image .nav_down_banner .news ul .spec_li{
+            height: 36px;
+            width: 324px;
+            background-color: #414046;
+            margin-bottom: 11px;
+        }
+        .image .nav_down_banner .news ul .spec_a{
+            width: 270px;
+            height: 36px;
+            line-height: 36px;
+            font-size: 18px;
+            color: #f3c258;
+            margin-left: 15px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .image .nav_down_banner .news ul li{
+            width: 325px;
+            margin-bottom: 11px;
+            height: 21px;
+        }
+        .image .nav_down_banner .news ul li a{
+            display: block;
+            font-size: 14px;
+            color: #b8b9c5;
+            width: 270px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            float: left;
+        }
+        .image .nav_down_banner .news ul li em{
+            float: right;
+            font-size: 12px;
+            display: block;
+            margin-right: 1px;
+            color: #999;
+        }
+        .image .nav_down_banner .cont_right{
+            width: 236px;
+            height: 342px;
+            float: right;
+        }
+        .image .nav_down_banner .cont_right li .one{
+            display: block;
+            width: 236px;
+            height: 128px;
+            background-image: url(../imgs/index.png);
+            background-repeat: no-repeat;
+            background-position: 0 -219px;
+        }
+        .image .nav_down_banner .cont_right li .two{
+            display: block;
+            width: 236px;
+            height: 106px;
+            background-image: url(../imgs/index.png);
+            background-repeat: no-repeat;
+            background-position: 0 -350px;
+        }
+        .image .nav_down_banner .cont_right li .three{
+            display: block;
+            width: 236px;
+            height: 108px;
+            background-image: url(../imgs/index.png);
+            background-repeat: no-repeat;
+            background-position: 0 -461px;
+        }
+        /*快速进入的通道*/
+        .image .nav_down_banner .banner_enter{
+            width: 1215px;
+            height: 134px;
+            margin-top: 28px;
+            margin-bottom: 34px;
+        }
+        .image .nav_down_banner .banner_enter li{
+            float: left;
+            width: 291px;
+            height: 134px;
+            margin-right: 12px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .image .nav_down_banner .banner_enter a{
+            width: 291px;
+            height: 134px;
+        }
+        .image .nav_down_banner .banner_enter .one{
+            background: url('../imgs/banner_enter1.jpg');
+        }
+        .image .nav_down_banner .banner_enter .two{
+            background: url('../imgs/banner_enter2.jpg');
+        }
+        .image .nav_down_banner .banner_enter .three{
+            background: url('../imgs/banner_enter3.jpg');
+        }
+        .image .nav_down_banner .banner_enter .four{
+            background: url('../imgs/banner_enter4.jpg');
+        }
+        .box{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            top: 0;
+            transition: 0.5s;
+        }
+   /*新英雄旋转图部分*/
+        /*新英雄旋转图标题*/
+        .new_hero{
+            height: 680px;
+            margin-bottom: 25px;
+            overflow: hidden;
+
+            position: relative;
+        }
+        .new_hero .wrap .slide  span{
+            display: block;
+            height: 136px;
+            width: 340px;
+            font-size: 34px;
+            font-weight: 700;
+            color: black;
+            margin-top: 256px;
+            margin-left: 90px;
+            position: absolute;
+            border-radius: 4px;
+        }
+        /*旋转图内容总大小*/
+        .wrap {
+            width: 1200px;
+            margin: 0px auto;
+        }
+        .slide {
+            height: 500px;
+            position: relative;
+        }
+        .slide li {
+            position: absolute;
+            left: 200px;
+            top: 0;
+            transition: all .5s;
+        }
+        .slide li img {
+            width: 100%;
+        }
+        /*各个图片样式*/
+        .slide .slide1 {
+            width: 400px;
+            top: 20px;
+            left: 50px;
+            opacity: 0.2;
+            z-index: 2;
+        }
+        .slide .slide2 {
+            width: 600px;
+            top: 70px;
+            left: 0;
+            opacity: 0.5;
+            z-index: 3;
+        }
+        .slide .slide3 {
+            width: 800px;
+            top: 100px;
+            left: 200px;
+            opacity: 1;
+            z-index: 4;
+        }
+        .slide .slide4 {
+            width: 600px;
+            top: 70px;
+            left: 600px;
+            opacity: 0.5;
+            z-index: 3;
+        }
+        .slide .slide5 {
+            width: 400px;
+            top: 20px;
+            left: 750px;
+            opacity: .2;
+            z-index: 2;
+        }
+        /*左右切换图标*/
+        .arrow {
+            opacity: 0;
+            position: relative;
+            z-index: 99;
+            top: 50%;
+        }
+        .prev, .next {
+            width: 19px;
+            height: 18px;
+            position: absolute;
+            top: 50%;
+            margin-top: 56px;
+            background: url(../imgs/direction.png) -6px -15px no-repeat;
+            z-index: 99;
+        }
+        .next {
+            right: 0;
+            background-image: url(../imgs/direction.png);
+            background-position: -23px -15px;
+        }
+
+    /*攻略中心部分*/
+    .banner{
+        height: 528px;
+        /*margin-bottom: 28px;*/
+    }
+        .banner .ban_left{
+            width: 876px;
+            height: 528px;
+            float: left;
+            overflow: hidden;
+        }
+        .banner .ban_right{
+            width: 295px;
+            height: 519px;
+            float: right;
+            overflow: hidden;
+        }
+        /*主广告部分的标题栏部分*/
+        /*左半边*/
+        /*标题栏部分*/
+        .banner .ban_left .ban_left_tit{
+            width: 843px;
+            height: 26px;
+            margin-bottom: 16px;
+        }
+        .banner .ban_left .ban_left_tit h3{
+            font-size: 22px;
+            float: left;
+            width: 123px;
+            display: block;
+            line-height: 26px;
+            font-weight: 600;
+            margin-left: 2px;
+            padding-left: 33px;
+            background-image: url("../imgs/index.png");
+            background-repeat: no-repeat;
+            background-position: -1px -107px;
+        }
+        .banner .ban_left .ban_left_tit a {
+            display: block;
+            width: 28px;
+            height: 14px;
+            line-height: 14px;
+            padding-left: 22px;
+            color: #999;
+            float: right;
+            background-image: url("../imgs/index.png");
+            background-repeat: no-repeat;
+            background-position: -252px 0;
+        }
+        /*导航部分*/
+        .banner .ban_left .ban_left_nav{
+            width: 872px;
+            height: 32px;
+            background-color: #f5f5f5;
+        }
+        .banner .ban_left .ban_left_nav li{
+            float: left;
+            width: 289px;
+            height: 29px;
+            line-height: 29px;
+            text-align: center;
+            font-size: 14px;
+            color: #999;
+            cursor: pointer;
+        }
+        /*赛事精品 和 最新皮肤 旁边的两根线*/
+        .split{
+            border-left: 1px solid #e1e1e1;
+            border-right: 1px solid #e1e1e1;
+        }
+        /*左下方主要内容*/
+        .ban_left_cont{
+            display: none;
+        }
+        .banner .ban_left .ban_left_item{
+            height: 26px;
+            margin-top: 13px;
+            margin-bottom: 10px;
+        }
+        .banner .ban_left .ban_left_item li{
+            float: left;
+        }
+        .banner .ban_left .ban_left_item li a{
+            height: 26px;
+            display: block;
+            margin-right: 8px;
+            padding: 0 15px 0 14px;
+            border-radius: 5px;
+            line-height: 26px;
+            border: 1px solid #e5e5e5;
+            font-size: 14px;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .banner .ban_left .ban_left_item li a:hover{
+            background-color: #f3c258;
+            border-color: #f3c258;
+            color: #fff;
+        }
+        /*攻略中心视频部分*/
+        /*上*/
+        .banner .ban_left .ban_left_video{
+            height: 408px;
+        }
+        .banner .ban_left .ban_left_video .top{
+            height: 204px;
+            position: relative;
+        }
+        .banner .ban_left .ban_left_video .top li{
+            display: block;
+            float: left;
+            width: 209px;
+            height: 204px;
+            margin-right: 12px;
+            position: relative;
+            overflow: hidden;
+        }
+        /*摸到视频时显示效果*/
+        .banner .ban_left .ban_left_video .top li:hover .video_mask{
+            display: block;
+        }
+        .banner .ban_left .ban_left_video .top .spec_li{
+            margin-right: 0;
+        }
+        .banner .ban_left .ban_left_video .top img{
+            display: block;
+            width: 209px;
+            height: 126px;
+        }
+        .banner .ban_left .ban_left_video .top .middle{
+            height: 22px;
+            width: 209px;
+            background: rgba(0,0,0,0.6);
+            display: block;
+            position: absolute;
+            top: 104px;
+        }
+        .banner .ban_left .ban_left_video .top .middle .num{
+            display: block;
+            float: left;
+            height: 12px;
+            line-height: 12px;
+            padding-left: 15px;
+            margin-left: 10px;
+            margin-top: 5px;
+            background-image: url(../imgs/index.png);
+            background-repeat: no-repeat;
+            background-position: -256px -64px;
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+        .banner .ban_left .ban_left_video .top .middle .date{
+            display: block;
+            float: right;
+            margin-top: 5px;
+            margin-right: 11px;
+            height: 9px;
+            line-height: 9px;
+            position: absolute;
+            right: 0;
+            color: #FFFFFF;
+        }
+        .banner .ban_left .ban_left_video .top .middle_cont{
+            display: block;
+            margin-top: 14px;
+            color: #333;
+        }
+        /*下*/
+        .banner .ban_left .ban_left_video .down{
+            height: 204px;
+            position: relative;
+        }
+        .banner .ban_left .ban_left_video .down li{
+            display: block;
+            float: left;
+            width: 209px;
+            height: 204px;
+            margin-right: 12px;
+            position: relative;
+            overflow: hidden;
+        }
+        /*摸到视频时显示的效果*/
+        .banner .ban_left .ban_left_video .down li:hover .video_mask{
+            display: block;
+        }
+        .banner .ban_left .ban_left_video .down .spec_li{
+            margin-right: 0;
+        }
+        .banner .ban_left .ban_left_video .down img{
+            display: block;
+            width: 209px;
+            height: 126px;
+        }
+        .banner .ban_left .ban_left_video .down .middle{
+            height: 22px;
+            width: 209px;
+            background: rgba(0,0,0,0.6);
+            display: block;
+            position: absolute;
+            top: 104px;
+        }
+        .banner .ban_left .ban_left_video .down .middle .num{
+            display: block;
+            float: left;
+            height: 12px;
+            line-height: 12px;
+            padding-left: 15px;
+            margin-left: 10px;
+            margin-top: 5px;
+            background-image: url(../imgs/index.png);
+            background-repeat: no-repeat;
+            background-position: -256px -64px;
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+        .banner .ban_left .ban_left_video .down .middle .date{
+            display: block;
+            float: right;
+            margin-top: 5px;
+            margin-right: 11px;
+            height: 9px;
+            line-height: 9px;
+            position: absolute;
+            right: 0;
+            color: #FFFFFF;
+        }
+        .banner .ban_left .ban_left_video .down .middle_cont{
+            display: block;
+            margin-top: 14px;
+            color: #333;
+        }
+        /*视频鼠标移入时的特效*/
+        .video_mask{
+            width: 100%;
+            height: 126px;
+            background-color: rgba(0,0,0,0.5);
+            position: absolute;
+            top: 0;
+            transition: 0.4s;
+            display: none;
+        }
+        /*视频鼠标移入时的图标*/
+        .video_mask .video_icon{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 50%;
+            margin-top: -20px;
+            left: 50%;
+            margin-left: -20px;
+            background-image: url(../imgs/index.png);
+            background-repeat: no-repeat;
+            background-position: -192px -64px;
+        }
+
+        /*右半边*/
+        .banner .ban_right .ban_right_tit{
+            width: 297px;
+            height: 26px;
+            margin-bottom: 16px;
+        }
+        .banner .ban_right .ban_right_tit h3{
+            font-size: 22px;
+            float: left;
+            width: 134px;
+            display: block;
+            line-height: 26px;
+            font-weight: 600;
+            margin-left: 2px;
+            padding-left: 33px;
+            background-image: url("../imgs/index.png");
+            background-repeat: no-repeat;
+            background-position: -1px -144px;
+        }
+        .banner .ban_right .ban_right_tit a{
+            display: block;
+            width: 28px;
+            height: 14px;
+            line-height: 14px;
+            padding-left: 22px;
+            color: #999;
+            float: right;
+            background-image: url("../imgs/index.png");
+            background-repeat: no-repeat;
+            background-position: -252px 0;
+        }
+        .banner .ban_right .ban_right_nav{
+            width: 295px;
+            height: 32px;
+            background-color: #f5f5f5;
+        }
+        .banner .ban_right .ban_right_nav li{
+            float: left;
+            width: 97px;
+            height: 29px;
+            line-height: 29px;
+            text-align: center;
+            font-size: 14px;
+            color: #999;
+        }
+        .ban_right_cont{
+            width: 295px;
+            height: 407px;
+            margin-top: 19px;
+            display: none;
+        }
+        /*右半边上半部分*/
+        .banner .ban_right .ban_right_cont .right_cont_up{
+            width: 293px;
+            height: 223px;
+            border: 1px solid #e5e5e5;
+        }
+        .banner .ban_right .ban_right_cont img{
+            width: 295px;
+            height: 156px;
+            margin-bottom: 16px;
+        }
+        .banner .ban_right .ban_right_cont h3{
+            height: 18px;
+            font-size: 18px;
+            font-weight: 600;
+            padding-left: 15px;
+        }
+        .banner .ban_right .ban_right_cont p{
+            height: 11px;
+            font-size: 11px;
+            padding-left: 15px;
+            margin-top: 6px;
+            color: #999999;
+        }
+        /*右半边下半部分*/
+        .banner .ban_right .ban_right_cont .right_cont_down{
+            margin-top: 10px;
+            width: 293px;
+            height: 174px;
+        }
+        .banner .ban_right .ban_right_cont .right_cont_down ul{
+            height: 171px;
+        }
+        .banner .ban_right .ban_right_cont .right_cont_down .down_ul{
+            display: block;
+            margin-bottom: 14px;
+        }
+        .banner .ban_right .ban_right_cont .right_cont_down li{
+            margin-right: 7px;
+            float: left;
+            position: relative;
+        }
+        .banner .ban_right .ban_right_cont .right_cont_down .spec_li{
+            margin-right: 0;
+        }
+        .banner .ban_right .ban_right_cont .right_cont_down li img{
+            width: 68px;
+            height: 171px;
+            margin-bottom: 0;
+        }
+        /*图片上的面具以及文字*/
+        .banner .ban_right .ban_right_cont .right_cont_down li a:hover .hero_mask{
+            display: block;
+        }
+        .banner .ban_right .ban_right_cont .right_cont_down li .hero_mask{
+            height: 171px;
+            width: 68px;
+            background-color: rgba(0,0,0,0.8);
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none;
+        }
+        .banner .ban_right .ban_right_cont .right_cont_down li .hero_name{
+            height: 171px;
+            letter-spacing: 0.4em;
+            color: #f3c258;
+            position: absolute;
+            left: 26px;
+            word-break: break-all;
+            writing-mode: vertical-rl;
+            text-align: center;
+
+        }
+        /*周免英雄中最下面的时间精灵图*/
+        .banner .ban_right .ban_right_cont .right_cont_down .down_span{
+            display: block;
+            margin-top: 20px;
+            width: 178px;
+            height: 14px;
+            padding-left: 24px;
+            background-image: url(../imgs/index.png);
+            background-position: -256px -42px;
+            background-repeat: no-repeat;
+            line-height: 14px;
+        }
+
+
+
+
+    /*新皮肤手风琴特效部分*/
+     .new_skin{
+         /*height: 680px;*/
+         overflow: hidden;
+     }
+     /*基本样式*/
+     .new_skin h1{
+         font-size: 22px;
+         float: left;
+         width: 123px;
+         display: block;
+         line-height: 26px;
+         font-weight: 600;
+         margin-left: 114px;
+         padding-left: 33px;
+         background-image: url(../imgs/index.png);
+         background-repeat: no-repeat;
+         background-position: -1px -144px;
+     }
+     .new_skin .content{
+         margin-top: 50px;
+     }
+     .new_skin .content .parentWrap{
+         width: 100%;
+         text-align: center;
+         position: relative;
+     }
+     .new_skin .content .parentWrap .menuGroup{
+         border-top: 1px solid #e3e3e3;
+     }
+     .new_skin .content .parentWrap .menuGroup .groupTitle{
+         display: block;
+         height: 40px;
+         line-height: 40px;
+         font-size: 20px;
+         cursor: pointer;
+     }
+     .new_skin .content .parentWrap .menuGroup > div{
+         height: 460px;
+         display: none;
+         border-radius: 10px;
+         position: relative;
+     }
+     /*内容样式*/
+      /*图片在左边*/
+      .menuGroup .left_img{
+          display: block;
+          height: 430px;
+      }
+      /*图片在右边*/
+      .menuGroup .right_img{
+            display: block;
+            height: 430px;
+        }
+      /*介绍在右边*/
+      .menuGroup .right_introduce{
+          width: 480px;
+          height: 340px;
+          display: block;
+          position: absolute;
+          background-color: rgba(0,0,0,0.8);
+          right: 100px;
+          border-radius: 50px;
+          margin-top: 10px;
+      }
+      /*介绍在左边*/
+      .menuGroup .left_introduce{
+            width: 480px;
+            height: 340px;
+            display: block;
+            position: absolute;
+            background-color: rgba(0,0,0,0.8);
+            margin-left: 100px;
+            margin-top: 30px;
+            border-radius: 50px;
+        }
+      /*介绍里的标题*/
+      .menuGroup .introduce h2{
+          font-size: 26px;
+          color: navajowhite;
+          font-weight: 400;
+          margin-top: 20px;
+      }
+      /*介绍里的内容*/
+      .menuGroup .introduce p{
+          width: 456px;
+          font-size: 18px;
+          text-indent: 2em;
+          margin-top: 20px;
+          margin-left: 10px;
+          color: whitesmoke;
+          text-align: center;
+      }
+
+       /*轮播图标题*/
+      .hero_tit{
+        height: 23px;
+        margin-bottom: 26px;
+    }
+       .hero_tit p{
+        background-image: url(../imgs/index.png);
+        background-position: -157px -107px;
+        background-repeat: no-repeat;
+        padding-left: 35px;
+        font-size: 22px;
+        height: 23px;
+        line-height: 23px;
+        font-weight: 600;
+    }
+       /*被选中*/
+       .selected{
+            display: block;
+        }
+        /*回到顶部的图标*/
+        #totop{
+        width: 50px;
+        height: 50px;
+        background-image: url(../imgs/totop.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: 50px 50px;
+        cursor: pointer;
+        display: none;
+        position: fixed;
+        bottom: 150px;
+        left: 92%;
+    }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

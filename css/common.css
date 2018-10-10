@@ -1,0 +1,288 @@
+/* 头部 */
+    .head {
+      height: 40px;
+      padding-left: 240px;
+      padding-right: 240px;
+    }
+    /*左边*/
+    .head .left{
+      position: relative;
+    }
+    .head .left .logo a{
+      height: 40px;
+      width: 210px;
+      background: url(../imgs/game-logo.png);
+      background-size: 210px;
+      position: absolute;
+      z-index: 4;
+    }
+    .head .left span{
+      height: 20px;
+      width: 1px;
+      background-color: #ccc;
+      position: absolute;
+      left: 210px;
+      margin-top: 10px;
+      margin-left: 8px;
+    }
+    /*摸图*/
+    .head .left .img a{
+      width: 172px;
+      height: 40px;
+      background: url(../imgs/phpDeg5Jt1506459281521095303.1521095303.d5f6e7e0df3164c6c02db0f90fcb0177.230x40_5888.jpg);
+      position: absolute;
+      left: 230px;
+    }
+    /*右边*/
+    .head .right {
+      width: 220px;
+      position: relative;
+        right: 280px;
+    }
+    .head .right .terrace{
+          width: 22px;
+          height: 22px;
+          background-repeat: no-repeat;
+          background: url(../imgs/index.png) -138px -6px;
+          margin-top: 10px;
+    }
+    .head .right .terrace1{
+      line-height: 40px;
+      margin-left: 2px;
+    }
+    .head .right .ko{
+      margin-left: 22px;
+      line-height: 40px;
+    }
+    .head .right .ko span{
+      margin-top: 12px;
+      margin-left: 2px;
+      display: block;
+      width: 12px;
+      height: 12px;
+      background: url(../imgs/index.png) -255px -22px;
+    }
+    /*隐藏的图*/
+    .head .box {
+      width: 970px;
+      height: 185px;
+      background: url(../imgs/phpgYk1MH6006281301521095237.1521095237.c38a4a47c56a53a2be68f32c93f14a66.970x185_47709.jpg);
+      position: absolute;
+    }
+/*导航*/
+  .image{
+        height: 1048px;
+        width: 100%;
+        background: url(../imgs/beijing1.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        margin: 0;
+        position: relative;
+    }
+    /*导航部分*/
+    .image .image_nav{
+        width: 100%;
+        height: 84px;
+        background: rgba(0,0,0,0.8);
+    }
+    .image .image_nav .one{
+        width: 218px;
+    }
+    .image .image_nav .one a{
+        width: 212px;
+        height: 152px;
+        background: url(../imgs/logo.png);
+        text-indent: -999px;
+        overflow: hidden;
+        float: left;
+    }
+    .image .image_nav ul li a{
+        padding-top: 18px;
+        float: left;
+        text-align: center;
+        width: 110px;
+        color: #c9c9dd;
+        height: 64px;
+    }
+    .image .image_nav ul li a span{
+        font-size: 18px;
+    }
+    .image .image_nav ul li a i{
+        color: #858792;
+        padding-top: 5px;
+        display: block;
+    }
+    .image .image_nav ul li a:hover span{
+        color: #e4b653;
+    }
+    .image .image_nav ul li a:hover i{
+        color: #e4b653;
+    }
+    .image .image_nav ul li a:hover{
+        background: linear-gradient(#070a0f,#352d1d);
+        border-bottom: 2px solid #e0b352 ;
+    }
+    .image .image_nav .one1 a{
+        width: 42px;
+        height: 42px;
+        background: url(../imgs/下载.png);
+        float: left;
+        border-radius: 50px;
+        border: 1px solid #f3c258;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .image .image_nav .text{
+        float: left;
+        margin-left: 5px;
+    }
+    .image .image_nav .text a{
+        color: #fff;
+        font-size: 1px;
+        margin-top: 20px;
+    }
+    .image .image_nav .text span{
+        font-size: 14px;
+        color: #858792;
+    }
+    /*导航的下拉框*/
+    .image .image_nav_down{
+        width: 100%;
+        height: 286px;
+        background-color: white;
+        background: rgba(0,0,0,0.7);
+        display: none;
+    }
+    .image .image_nav_down .sub_nav{
+        height: 286px;
+        margin-left: 322px;
+        width: 670px;
+    }
+    .image .image_nav_down .sub_nav li{
+        width: 110px;
+        height: 240px;
+        /*background-color: green;*/
+        margin-left: 1px;
+        float: left;
+        margin-top: 24px;
+    }
+    .image .image_nav_down .sub_nav li a{
+        display: block;
+        font-size: 14px;
+        text-align: center;
+        color: #c9c9dd;
+        height: 30px;
+        line-height: 30px;
+    }
+    .image .image_nav_down .sub_nav li a:hover{
+        color: #f3c258;
+        text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+
+
+/*底部*/
+ .end{
+        height: 362px;
+        background: url(../imgs/bg_footer.jpg);
+        margin-top: 100px;
+    }
+    .end .end1{
+        height: 76px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 10px;
+    }
+    .end .end1 .one a{
+        width: 354px;
+        height: 55px;
+        background: url(../imgs/spr.png) -1px -6px;
+    }
+    .end .end1 .si{
+        width: 520px;
+        float: right;
+        padding: 25px;
+    }
+    .end .end1 .two a{
+        width: 87px;
+        height: 20px;
+        background: url(../imgs/cooperative-bg.png) -15px -7px;
+    }
+    .end .end1 .san a{
+        width: 58px;
+        height: 20px;
+        background: url(../imgs/cooperative-bg.png) -15px -187px;
+        margin-left: 15px;
+    }
+    .end .end1 .wu{
+        width: 286px;
+        height: 36px;
+        border: 3px solid #b8b8b8;
+        position: relative;
+    }
+    .end .end1 .wu h3{
+        width: 228px;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+    }
+    .end .end1 .wu span{
+        height: 26px;
+        width: 1px;
+        background-color: #999;
+        margin-top: 2px;
+    }
+    .end .end1 .wu i{
+        width: 40px;
+        height: 24px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 2px;
+        font-weight: 700;
+    }
+    .end .end1 .wu .liu{
+        width: 286px;
+        height: 200px;
+        border:  3px solid #999;
+        position: absolute;
+        top: 30px;
+        left: -3px;
+        display: none;
+    }
+    .end .end1 .wu:hover .liu{
+        display: block;
+    }
+    .end .end1 .wu ul{
+        background-color: #fff;
+        height: 194px;
+    }
+    .end .end1 .wu ul li{
+        padding-left: 13px;
+        width: 280px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .end .end1 .wu ul li:hover{
+        color: #fff;
+        background-color: #0085fd;
+    }
+    .end .end2{
+        height: 100px;
+        margin-top: 25px;
+    }
+    .end .end2 .wen{
+        width: 508px;
+        height: 98px;
+    }
+    .end .end2 .wen em{
+        margin-left: 10px;
+        float: left;
+    }
